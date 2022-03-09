@@ -1,0 +1,5 @@
+#DISBATCH PREFIX python run_destripe.py 4 /mnt/sdceph/users/jhuntenburg/benchmark/compress_out 
+/mnt/sdceph/users/jhuntenburg/benchmark/raw/8413c5c6-b42b-4ec6-b751-881a54413628/_spikeglx_ephysData_g0_t0.imec0.ap.bin
+/mnt/sdceph/users/jhuntenburg/benchmark/raw/8ca1a850-26ef-42be-8b28-c2e2d12f06d6/_spikeglx_ephysData_g0_t0.imec0.ap.bin
+/mnt/sdceph/users/jhuntenburg/benchmark/raw/ce24bbe9-ae70-4659-9e9c-564d1a865de8/_spikeglx_ephysData_g0_t0.imec0.ap.bin
+/mnt/sdceph/users/jhuntenburg/benchmark/raw/ce397420-3cd2-4a55-8fd1-5e28321981f4/_spikeglx_ephysData_g0_t0.imec1.ap.bin
