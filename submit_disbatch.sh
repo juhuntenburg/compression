@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # Number of cpus to request, needs to match nprocesses in python scripts
-n_cpus=8
+n_cpus=4
 n_tasks=4
 
 # Locations
@@ -34,4 +34,4 @@ done
 #find $in_dir/*/*ap.bin -type f | sort >> $task_file 
 
 # Submit the slurm job, run ntasks at a time, each with n_pus cores
-sbatch --partition=gen --ntasks=$n_tasks --cpus-per-task=$n_cpus --mem-per-cpu=1G disBatch $task_file
+sbatch --partition=gen --ntasks=$n_tasks --cpus-per-task=$n_cpus --mem-per-cpu=2.5G disBatch $task_file
